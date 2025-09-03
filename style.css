@@ -1,0 +1,28 @@
+body{
+    background-image: url(../img/nature.jpg);
+    height: 100vh;
+    position: relative;
+}
+header{
+    background-color: aqua;
+}
+.log_in{
+    height: auto;
+    width: 30vh;
+    background-color: rgba(180, 180, 192, 0.459);
+    padding: 25px;
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+input,button{
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px;
+    margin: 14px 0px;
+}
+button{
+    transform: translate(150%); 
+}
